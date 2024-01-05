@@ -17,18 +17,18 @@ export const styles = StyleSheet.create({
     marginHorizontal: 16,
   },
   listItem: {
-  backgroundColor: '#f0f0f0',
-  borderRadius: 10,
-  shadowColor: "#000",
-  shadowOffset: {
-    width: 0,
-    height: 2,
-  },
-  shadowOpacity: 0.25,
-  shadowRadius: 3.84,
-  elevation: 5,
-  marginBottom: 20,
-  overflow: 'hidden', // This ensures the image corners are also rounded
+    backgroundColor: '#f0f0f0',
+    borderRadius: 10,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+    marginBottom: 20,
+    overflow: 'hidden', // This ensures the image corners are also rounded
   },
   cardImage: {
     width: '100%',
@@ -39,5 +39,11 @@ export const styles = StyleSheet.create({
     padding: 20,
     fontSize: 18,
     fontWeight: 'bold',
+  },
+  cardDate: {
+    fontSize: 12,
+    color: '#666',
+    padding: 10,
+    textAlign: 'right',
   },
 });
