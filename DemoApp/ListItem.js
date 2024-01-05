@@ -26,9 +26,7 @@ const ListItem = ({ item }) => {
     Linking.openURL(item.url).catch(err => console.error("Couldn't load page", err));
   };
 
-  const animatedStyle = {
-    transform: [{ scale: scaleValue }],
-  };
+  const animatedStyle = { transform: [{ scale: scaleValue }] };
 
   const updatedDate = new Date(item.updated_at);
   const dateString = `${updatedDate.toLocaleDateString()} ${updatedDate.toLocaleTimeString()}`;

@@ -3,6 +3,7 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
+    padding: 5,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
@@ -12,7 +13,7 @@ export const styles = StyleSheet.create({
   },
   listItem: {
     backgroundColor: '#f0f0f0',
-    borderRadius: 10,
+    borderRadius: 12,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
