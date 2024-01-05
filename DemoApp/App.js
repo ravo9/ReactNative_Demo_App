@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { View, ScrollView } from 'react-native';
+import { Text, View, ScrollView } from 'react-native';
 import { styles } from './AppStyles';
 import ListItem from './ListItem';
 import fetchDataFromApi from './fetchDataFromApi';
